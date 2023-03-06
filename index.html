@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home | soovuh</title>
     <link rel="stylesheet" href="source/styles/bootstrap.css">
     <link rel="stylesheet" href="source/styles/style.css">
-
+    <link rel="stylesheet" href="source/styles/bg-video.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon/favicon-16x16.png">
+    <link rel="manifest" href="source/files/favicon/site.webmanifest">
 
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="source/images/logo-mini.png" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="source/images/Logos/logo-mini.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,6 +33,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="pricing.html">Pricing</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -36,16 +43,266 @@
     </header>
 
     <section>
+        <div class="bgvideo">
+            <video src="source/files/videos/bg-video.mp4" type="video/mp4" autoplay muted loop></video>
+            <div class="effect"></div>
+            <div class="video-text">
+                <h1>
+                    Future's here.
+                </h1>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                                    aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                                    aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                                    aria-label="Slide 9"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/1product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    The course of studying microcontroller programming, as well as the
+                                                    management and programming of microcontrollers in the C language.
+                                                    Practical tasks will use arduino simulation. Let`s start with us!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/2product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    The course, which is based on writing code in the Python programming
+                                                    language for web development. We go from the basics of programming
+                                                    to complex code on the django framework.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/3product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    A course for those who want to become a front-end developer.
+                                                    Learning html, CSS and JavaScript, as well as the react framework,
+                                                    you will receive all this knowledge in our course.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/4product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    In addition to front-end development skills (realization of the
+                                                    visual
+                                                    part of the site), you will gain knowledge of writing server code,
+                                                    which
+                                                    is responsible for saving and processing data, security and speed.
+                                                    Companies highly value such specialists, because they can implement
+                                                    a
+                                                    new feature completely autonomously.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/5product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    Master your language with lessons, quizzes, and projects designed
+                                                    for
+                                                    real-life scenarios. Take your skills to a new level and join
+                                                    millions
+                                                    that have learned how to analyze data.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/6product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    Start working on your first project, learn the tools and essential
+                                                    practices that PMs in IT need. You will master the project triangle,
+                                                    as
+                                                    well as working according to flexible and traditional methodologies.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/7product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    Unity/Game Developer is a specialist who develops games using the
+                                                    Unity
+                                                    engine and the C# language. Also, this developer can create business
+                                                    applications that can be used in advertising campaigns.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/8product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    Kotlin from scratch + Android app development
+                                                    You will learn the main Android development language and create your
+                                                    first app</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/images/products/9product.png" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <p>
+                                                    PHP from scratch + MySQL + Laravel
+                                                    An introductory course for learning the PHP language from scratch to
+                                                    the level
+                                                    of self-writing applications at the Junior level</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="col-lg-12 col-md-12 text-center contact-info">
+                            <p>If you have any questions, contact us, please</p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 text-center">
+                            <button type="button" class="btn btn-outline-primary"><img class="call-anim"
+                                    style="width: 40;" src="source/images/Logos/telephone.png" alt="..."></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="row px-2">
+                        <div class="col-lg-12 sidebar my-4">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi suscipit in quo
+                                facilis veritatis officia facere reiciendis ut, delectus, amet, nam eum architecto
+                                perspiciatis consequuntur totam nulla veniam aliquid? <a href="#">Learn more >>></a></p>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ipsam iusto placeat
+                                laboriosam in pariatur nesciunt voluptatum blanditiis minus nisi itaque, esse
+                                reprehenderit porro cumque et? <a href="#">Learn more >>></a></p>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, ullam quam optio nisi
+                                expedita omnis iusto molestiae totam ratione illum. <a href="#">Learn more >>></a></p>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti inventore omnis optio
+                                laboriosam praesentium nihil, accusamus officia quaerat iusto ipsam tempore
+                                reprehenderit perspiciatis. <a href="#">Learn more >>></a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
     </section>
 
     <footer>
-
+        <div class="container-fluid footer-block">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <p>All rights reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <p>Contacts<br>Job<br>Our Team</p>
+                </div>
+                <div class="col-lg-4 col-md-12 media-links">
+                    <a href="https://github.com/soovuh"><img style="width: 50px; margin-inline: 1em;"
+                            src="source/images/Logos/github.png" alt=""></a>
+                    <a href="https://t.me/soovuh"><img style="width: 50px; margin-inline: 1em;"
+                            src="source/images/Logos/telegram.png" alt=""></a>
+                    <a href="https://www.instagram.com/soovuh"><img style="width: 50px; margin-inline: 1em;"
+                            src=" source/images/Logos/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script> -->
+    <script src="bootstrap.bundle.js"></script>
 </body>
 
 </html>
