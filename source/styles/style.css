@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 body {
-    background: linear-gradient(90deg, #460784 0%, #BE86DC 100%);
+    font-family: Poppins, serif;
+    background: linear-gradient(90deg, #443096 0%, #1a0233 100%);
+}
+
+img {
+    border-radius: 15%;
+}
+
+p {
+    color: rgb(238, 222, 252);
+}
+
+.navbar {
+    background-color: rgb(59, 18, 100);
 }
 
 .nav-link {
@@ -20,4 +35,109 @@ body {
 
 .navbar-toggler {
     background-color: rgb(92, 27, 157);
+}
+
+.card {
+    color: rgb(238, 222, 252);
+    background: linear-gradient(270deg, #443096 0%, #1a0233 100%);
+
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(238, 222, 252)
+}
+
+.card a>img {
+    border-radius: 0%;
+}
+
+.btn-primary {
+    color: rgb(238, 222, 252);
+    background-color: #7817da;
+    border-color: #7817da;
+}
+
+.sidebar {
+    color: rgb(238, 222, 252);
+    background: linear-gradient(270deg, #443096 0%, #1a0233 100%);
+}
+
+.slide-text {
+    font-size: 1.5em;
+}
+
+.slide-text,
+.footer-text {
+    color: rgb(238, 222, 252);
+    margin: auto auto
+}
+
+.contact-info {
+    margin-top: 8em;
+}
+
+.footer-block {
+    background-color: rgb(59, 18, 100);
+    margin-top: 4em;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim:hover {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+.btn-outline-primary {
+    border-style: none;
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(150, 81, 182, 0);
+}
+
+
+@keyframes call {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 1000px) {
+    .call-anim {
+        animation: call 2s ease 0s infinite normal forwards;
+    }
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+
 }
