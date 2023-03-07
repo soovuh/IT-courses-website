@@ -3,6 +3,7 @@
 body {
     font-family: Poppins, serif;
     background: linear-gradient(90deg, #443096 0%, #1a0233 100%);
+    color: rgb(238, 222, 252);
 }
 
 img {
@@ -37,9 +38,25 @@ p {
     background-color: rgb(92, 27, 157);
 }
 
+
+.form-control {
+    background: linear-gradient(270deg, #443096 0%, #1a0233 100%);
+    color: rgb(238, 222, 252);
+    border: none;
+}
+
+.from-control ::placeholder {
+    color: rgb(238, 222, 252);
+}
+
+.form-control:focus {
+    color: rgb(238, 222, 252);
+}
+
 .card {
     color: rgb(238, 222, 252);
     background: linear-gradient(270deg, #443096 0%, #1a0233 100%);
+    border-radius: 5%;
 
 }
 
@@ -49,7 +66,7 @@ p {
 }
 
 .card a>img {
-    border-radius: 0%;
+    border-radius: 5%;
 }
 
 .btn-primary {
